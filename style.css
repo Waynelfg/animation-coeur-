@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+
+.card{
+    box-shadow: 2px 2px 2px lightgrey;
+    border-radius: 20px 20px;
+    height: fit-content;
+    width: 33%;
+    height: 4em;
+    margin: 10em 25em;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card__description{
+    padding: 0.8em 0.8em;
+    width: 100%;
+}
+.card__description__element{
+    display: flex;
+    gap: 25%;
+}
+
+.card__description__element p{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card__description__element__composant{
+  
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.card__check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    width: 7em;
+    margin: 0em -7em -0em -0em;
+    transition: 0.7s;
+}
+
+
+:hover.card .card__check{
+    margin: 0;
+}
+
+
+.card__check i{
+    color: white;
+    font-size: 1.8em;
+}
